@@ -21,4 +21,4 @@ for tr in rows:
     for td in cols:
         text = td.find(text=True)
         if text is not None:
-            print(text)
+            print(text + "fseafsefasdfsdafsefaefasefaefsa")

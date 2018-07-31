@@ -17,4 +17,5 @@ my_account = Account(primary_smtp_address='m.kerrigan@snellemantom.com.au', cred
 
 for item in my_account.calendar.all().order_by('-datetime_received')[:100]:
     print(item.subject, item.start, item.end, item.location)
+    print('testicle')
 

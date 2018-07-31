@@ -1,9 +1,4 @@
-from datetime import datetime, timedelta
-import pytz
-from exchangelib import DELEGATE, IMPERSONATION, Account, Credentials, ServiceAccount, \
-    EWSDateTime, EWSTimeZone, Configuration, NTLM, GSSAPI, CalendarItem, Message, \
-    Mailbox, Attendee, Q, ExtendedProperty, FileAttachment, ItemAttachment, \
-    HTMLBody, Build, Version, FolderCollection
+from exchangelib import DELEGATE, Account, Credentials, Configuration, NTLM, Build, Version
 
 credentials = Credentials(username='snellemantom\\i.vidler', password='66pilloA%')
 
